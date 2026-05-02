@@ -39,13 +39,6 @@ Vorbereitung auf die kommissionelle Masterprüfung an der FH JOANNEUM (Studienga
 - Auto-Pull beim Start: an
 - Commit-Message-Template: optional
 
-## Arbeitsablauf
-
-1. **Phase 1 – Extraktion (abgeschlossen):** Vorlesungs-PDFs wurden über Cowork in den Vault eingearbeitet. Pro Chat ein PDF (oder eine Vorlesungseinheit). Cowork hat atomare Konzept-Notes plus eine Vorlesungs-Übersichtsnote erzeugt und das passende Fach-MOC befüllt.
-2. **Phase 2 – Karteikarten und Prüfungsfragen (abgeschlossen):** Pro Fach ein Sub-Chat erzeugt PF-Notes in `03_Prüfungsfragen/` mit Karten im Spaced-Repetition-Multi-Line-Format und mündlichen-Prüfungs-Anschlussfragen.
-3. **Phase 3 – Excalidraw-Diagramme:** Pro Fach ein Sub-Chat erzeugt visuelle Diagramme in `_Excalidraw/` für Architekturen, Prozess-Flows und Vergleiche.
-4. **Phase 4 – Lernen:** Spaced Repetition Plugin, gezielt nach Tag-Hierarchie (z. B. nur `#flashcards` plus Fach-Tag-Filter), in Kombination mit den Diagramm-Embeds und PF-Diskussionsfragen.
-
 ## Vault-Struktur
 
 - `00_MOCs/` – Maps of Content als Einstiegspunkte pro Fach (eines pro Prüfungsfach + Cluster-MOCs)

@@ -1,0 +1,38 @@
+# Obsidian per-machine state (UI-Layout, Cache)
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Obsidian Git plugin – lokale Daten
+.obsidian/plugins/obsidian-git/data.json
+
+# Spaced Repetition Plugin – lokale Lerndaten (pro Gerät)
+# .obsidian/plugins/obsidian-spaced-repetition/data.json
+# Auskommentiert: wenn du den Lernfortschritt zwischen Geräten syncen willst, lass es drin.
+
+# OS / Editor
+Thumbs.db
+.DS_Store
+*.swp
+*~
+
+# Obsidian-Trash (lokal)
+.trash/
+
+# Excalidraw Plugin Backups
+.obsidian/plugins/obsidian-excalidraw-plugin/*.bak
+
+# --- Optional, je nach Repo-Größe und Urheberrecht ---
+
+# Vorlesungsfolien als PDFs sind oft urheberrechtlich geschützt und groß.
+# Wenn das Repo public sein soll oder du Git-Bloat vermeiden willst, hier aktivieren:
+# Folien/
+
+# User-Uploads im Cowork-Workflow
+# _Attachments/
+
+# Sub-Chat-Prompts und Audit-Berichte sind Prozess-Artefakte, kein Lernmaterial.
+# Tracken oder nicht – Geschmacksfrage.
+# _Audits/
+# _Prompts/

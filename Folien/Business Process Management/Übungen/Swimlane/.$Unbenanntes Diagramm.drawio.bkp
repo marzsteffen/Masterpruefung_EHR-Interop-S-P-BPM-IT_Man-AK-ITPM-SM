@@ -1,0 +1,490 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Stationär">
+    <mxGraphModel dx="1097" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-70" value="Präoperativer Entscheidungsprozess" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=#FFF2CC;opacity=50;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="60" y="40" width="810" height="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-107" value="Anästhesie (BQLL)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=#FFF2CC;opacity=50;" parent="Os1vOfQC7MNVxKM_Qbm_-70" vertex="1">
+          <mxGeometry x="575" y="20" width="235" height="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-112" value="BQLL Prüfung: präoperative Diagnostik notwendig?" style="rhombus;whiteSpace=wrap;html=1;fontSize=9;" parent="Os1vOfQC7MNVxKM_Qbm_-107" vertex="1">
+          <mxGeometry x="65" y="740" width="105" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-109" value="Gutachtung durchführen" style="rounded=1;whiteSpace=wrap;html=1;shape=process;backgroundOutline=1;" parent="Os1vOfQC7MNVxKM_Qbm_-107" vertex="1">
+          <mxGeometry x="57.5" y="870" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-110" value="Ja" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;spacingRight=21;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-107" source="Os1vOfQC7MNVxKM_Qbm_-112" target="Os1vOfQC7MNVxKM_Qbm_-109" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-345" value="Anästhesie möglich?" style="rhombus;whiteSpace=wrap;html=1;" parent="Os1vOfQC7MNVxKM_Qbm_-107" vertex="1">
+          <mxGeometry x="76.25" y="940" width="82.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-344" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-107" source="Os1vOfQC7MNVxKM_Qbm_-109" target="Os1vOfQC7MNVxKM_Qbm_-345" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="910" as="sourcePoint" />
+            <mxPoint x="-188" y="1045" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-340" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="Os1vOfQC7MNVxKM_Qbm_-107" source="Os1vOfQC7MNVxKM_Qbm_-112" target="Os1vOfQC7MNVxKM_Qbm_-345" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-185" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="215" y="790" />
+              <mxPoint x="215" y="920" />
+              <mxPoint x="118" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-341" value="nein" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFF2CC;" parent="Os1vOfQC7MNVxKM_Qbm_-340" vertex="1" connectable="0">
+          <mxGeometry x="-0.8774" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-82" value="Ambulanz" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;swimlaneFillColor=#FFF2CC;opacity=50;" parent="Os1vOfQC7MNVxKM_Qbm_-70" vertex="1">
+          <mxGeometry x="200" y="20" width="374" height="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-337" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-82" source="Os1vOfQC7MNVxKM_Qbm_-269" target="Os1vOfQC7MNVxKM_Qbm_-334" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-82" source="Os1vOfQC7MNVxKM_Qbm_-85" target="Os1vOfQC7MNVxKM_Qbm_-97" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-85" value="Anamnese, Klinische Untersuchung" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;shape=process;backgroundOutline=1;" parent="Os1vOfQC7MNVxKM_Qbm_-82" vertex="1">
+          <mxGeometry x="107.5" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-86" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-82" source="Os1vOfQC7MNVxKM_Qbm_-87" target="Os1vOfQC7MNVxKM_Qbm_-85" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-87" value="Norfallbesuch" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="Os1vOfQC7MNVxKM_Qbm_-82" vertex="1">
+          <mxGeometry x="107.5" y="70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-88" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=#FFF2CC;" parent="Os1vOfQC7MNVxKM_Qbm_-82" source="Os1vOfQC7MNVxKM_Qbm_-97" target="Os1vOfQC7MNVxKM_Qbm_-95" edge="1">
+          <mxGeometry x="-0.8696" y="5" relative="1" as="geometry">
+            <mxPoint x="220" y="285" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="320" y="270" />
+              <mxPoint x="320" y="620" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-270" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-82" source="Os1vOfQC7MNVxKM_Qbm_-90" target="Os1vOfQC7MNVxKM_Qbm_-269" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-90" value="&lt;div&gt;Ultraschall mit Valsalva Pressversuch&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" parent="Os1vOfQC7MNVxKM_Qbm_-82" vertex="1">
+          <mxGeometry x="107.5" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-91" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;labelBackgroundColor=#FFF2CC;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="Os1vOfQC7MNVxKM_Qbm_-82" source="Os1vOfQC7MNVxKM_Qbm_-97" target="Os1vOfQC7MNVxKM_Qbm_-90" edge="1">
+          <mxGeometry x="-0.8532" relative="1" as="geometry">
+            <mxPoint x="175" y="330" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-95" value="OP Indikation stellen" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="Os1vOfQC7MNVxKM_Qbm_-82" vertex="1">
+          <mxGeometry x="107.5" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-82" source="Os1vOfQC7MNVxKM_Qbm_-95" target="Os1vOfQC7MNVxKM_Qbm_-94" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-97" value="Diagnose Leistenbruch?" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" parent="Os1vOfQC7MNVxKM_Qbm_-82" vertex="1">
+          <mxGeometry x="115" y="220" width="105" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-94" value="OP Aufklärung durchführen" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="Os1vOfQC7MNVxKM_Qbm_-82" vertex="1">
+          <mxGeometry x="107.5" y="660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-98" value="Tagesklinische&amp;nbsp;&lt;div&gt;Operation nach Kriterienliste möglich?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="Os1vOfQC7MNVxKM_Qbm_-82" vertex="1">
+          <mxGeometry x="107.5" y="1070" width="137" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-99" value="Kriterienliste" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="Os1vOfQC7MNVxKM_Qbm_-82" vertex="1">
+          <mxGeometry x="220" y="1190" width="140" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-100" value="ASA 1 oder 2, nur in Ausnahmen 3" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="Os1vOfQC7MNVxKM_Qbm_-99" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-101" value="keine geplante postop. Intensivmedizin" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="Os1vOfQC7MNVxKM_Qbm_-99" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-102" value="Analgesie Kontrolle postoperativ" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="Os1vOfQC7MNVxKM_Qbm_-99" vertex="1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-103" value="Patient ist Zuhause von volljähriger Person betreut" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="Os1vOfQC7MNVxKM_Qbm_-99" vertex="1">
+          <mxGeometry y="120" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-104" value="Patient darf nicht selbst Auto fahren 24h" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="Os1vOfQC7MNVxKM_Qbm_-99" vertex="1">
+          <mxGeometry y="170" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-105" value="Keine Kontraindikationen gegen einen tagesklinische Eingriff" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="Os1vOfQC7MNVxKM_Qbm_-99" vertex="1">
+          <mxGeometry y="200" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-106" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;exitX=1;exitY=1;exitDx=0;exitDy=0;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-82" source="Os1vOfQC7MNVxKM_Qbm_-98" target="Os1vOfQC7MNVxKM_Qbm_-99" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="511.95257936507915" y="1129.047619047619" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="210" y="1180" />
+              <mxPoint x="218" y="1180" />
+              <mxPoint x="218" y="1179" />
+              <mxPoint x="290" y="1179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-273" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;labelBackgroundColor=#FFF2CC;" parent="Os1vOfQC7MNVxKM_Qbm_-82" source="Os1vOfQC7MNVxKM_Qbm_-269" target="Os1vOfQC7MNVxKM_Qbm_-95" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="450" />
+              <mxPoint x="320" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-295" value="&lt;span style=&quot;background-color: rgb(255, 242, 204);&quot;&gt;Ja&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Os1vOfQC7MNVxKM_Qbm_-273" vertex="1" connectable="0">
+          <mxGeometry x="-0.8499" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-269" value="Diagnose Leistenbruch?" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" parent="Os1vOfQC7MNVxKM_Qbm_-82" vertex="1">
+          <mxGeometry x="111.25" y="400" width="112.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-338" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-82" source="Os1vOfQC7MNVxKM_Qbm_-334" target="Os1vOfQC7MNVxKM_Qbm_-95" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="590" />
+              <mxPoint x="168" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-334" value="CT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" parent="Os1vOfQC7MNVxKM_Qbm_-82" vertex="1">
+          <mxGeometry x="107.5" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B5Mc8XhPfBe7qgqMcsRP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Os1vOfQC7MNVxKM_Qbm_-82" source="B5Mc8XhPfBe7qgqMcsRP-1" target="Os1vOfQC7MNVxKM_Qbm_-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B5Mc8XhPfBe7qgqMcsRP-1" value="OP und Anästhesie Aufklärung und bereitwilligung des Patienten" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="Os1vOfQC7MNVxKM_Qbm_-82">
+          <mxGeometry x="116" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-71" value="Station" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=#FFF2CC;opacity=50;" parent="Os1vOfQC7MNVxKM_Qbm_-70" vertex="1">
+          <mxGeometry y="20" width="200" height="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-75" value="Aufklärung &amp;amp; OP-Bogen unterzeichnen" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="Os1vOfQC7MNVxKM_Qbm_-71" vertex="1">
+          <mxGeometry x="40" y="700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-78" value="Stationärer OP Prozess" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;align=center;labelPosition=center;" parent="Os1vOfQC7MNVxKM_Qbm_-71" vertex="1">
+          <mxGeometry x="40" y="1112.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-81" value="Tagesklinischer&amp;nbsp; Prozess" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#dae8fc;strokeColor=#6c8ebf;labelPosition=center;align=center;" parent="Os1vOfQC7MNVxKM_Qbm_-71" vertex="1">
+          <mxGeometry x="40" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-118" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-70" source="Os1vOfQC7MNVxKM_Qbm_-75" target="Os1vOfQC7MNVxKM_Qbm_-112" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-117" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-70" source="Os1vOfQC7MNVxKM_Qbm_-94" target="Os1vOfQC7MNVxKM_Qbm_-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-124" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#FFF2CC;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-70" source="Os1vOfQC7MNVxKM_Qbm_-98" target="Os1vOfQC7MNVxKM_Qbm_-78" edge="1">
+          <mxGeometry x="-0.791" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="160" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-125" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#FFF2CC;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="Os1vOfQC7MNVxKM_Qbm_-70" source="Os1vOfQC7MNVxKM_Qbm_-98" target="Os1vOfQC7MNVxKM_Qbm_-81" edge="1">
+          <mxGeometry x="-0.8757" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="376" y="1350" />
+            </Array>
+            <mxPoint as="offset" />
+            <mxPoint x="160" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5Mc8XhPfBe7qgqMcsRP-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Os1vOfQC7MNVxKM_Qbm_-70" source="Os1vOfQC7MNVxKM_Qbm_-345" target="B5Mc8XhPfBe7qgqMcsRP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="711" y="1045" as="sourcePoint" />
+            <mxPoint x="436" y="1130" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5Mc8XhPfBe7qgqMcsRP-3" value="ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFF2CC;" vertex="1" connectable="0" parent="B5Mc8XhPfBe7qgqMcsRP-2">
+          <mxGeometry x="-0.8829" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-182" value="Stationärer OP Prozess" style="swimlane;whiteSpace=wrap;html=1;fontSize=26;startSize=23;swimlaneFillColor=default;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=#D5E8D4;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1630" width="880" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-183" value="Patient" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;opacity=60;fontSize=20;" parent="Os1vOfQC7MNVxKM_Qbm_-182" vertex="1">
+          <mxGeometry y="30" width="200" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-198" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-183" source="Os1vOfQC7MNVxKM_Qbm_-193" target="Os1vOfQC7MNVxKM_Qbm_-197" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-193" value="Präoperativer Entscheidungs-&lt;div&gt;prozess&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-183" vertex="1">
+          <mxGeometry x="35" y="50" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-197" value="Stationäre Aufnahme" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;shape=process;backgroundOutline=1;" parent="Os1vOfQC7MNVxKM_Qbm_-183" vertex="1">
+          <mxGeometry x="40" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-184" value="Station / Pflege" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#82b366;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fillColor=#d5e8d4;swimlaneFillColor=#D5E8D4;opacity=60;" parent="Os1vOfQC7MNVxKM_Qbm_-182" vertex="1">
+          <mxGeometry x="200" y="30" width="240" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-201" value="Patiententransport zur Operation" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;" parent="Os1vOfQC7MNVxKM_Qbm_-184" vertex="1">
+          <mxGeometry x="60" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-203" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-184" source="Os1vOfQC7MNVxKM_Qbm_-199" target="Os1vOfQC7MNVxKM_Qbm_-201" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-199" value="Patienten auf die OP vorbereiten" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;shape=process;backgroundOutline=1;" parent="Os1vOfQC7MNVxKM_Qbm_-184" vertex="1">
+          <mxGeometry x="60" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-212" value="Rücktransport auf Station" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;" parent="Os1vOfQC7MNVxKM_Qbm_-184" vertex="1">
+          <mxGeometry x="60" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-225" value="Patient entlassen" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;shape=process;backgroundOutline=1;" parent="Os1vOfQC7MNVxKM_Qbm_-184" vertex="1">
+          <mxGeometry x="60" y="710" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-287" value="Terminplanung?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-184" vertex="1">
+          <mxGeometry x="-50" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-200" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-182" source="Os1vOfQC7MNVxKM_Qbm_-197" target="Os1vOfQC7MNVxKM_Qbm_-199" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-185" value="Op Team / Chirugie" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;opacity=70;fontSize=20;" parent="Os1vOfQC7MNVxKM_Qbm_-182" vertex="1">
+          <mxGeometry x="660" y="30" width="220" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-207" value="Operation durchführen" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;shape=process;backgroundOutline=1;" parent="Os1vOfQC7MNVxKM_Qbm_-185" vertex="1">
+          <mxGeometry x="50" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-219" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-185" source="Os1vOfQC7MNVxKM_Qbm_-215" target="Os1vOfQC7MNVxKM_Qbm_-217" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-215" value="Postoperative Untersuchung" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;shape=process;backgroundOutline=1;" parent="Os1vOfQC7MNVxKM_Qbm_-185" vertex="1">
+          <mxGeometry x="50" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-228" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;labelBackgroundColor=#D5E8D4;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-185" source="Os1vOfQC7MNVxKM_Qbm_-217" target="Os1vOfQC7MNVxKM_Qbm_-215" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="670" />
+              <mxPoint x="200" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-229" value="nein" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#D5E8D4;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-228" vertex="1" connectable="0">
+          <mxGeometry x="-0.7936" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-217" value="Entlassbereit?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-185" vertex="1">
+          <mxGeometry x="57.5" y="620" width="105" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-186" value="Anästhesie" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;opacity=60;startSize=23;fontSize=20;" parent="Os1vOfQC7MNVxKM_Qbm_-182" vertex="1">
+          <mxGeometry x="440" y="30" width="220" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-290" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-186" source="Os1vOfQC7MNVxKM_Qbm_-204" target="Os1vOfQC7MNVxKM_Qbm_-289" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-204" value="Anästhesie einleiten" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;shape=process;backgroundOutline=1;" parent="Os1vOfQC7MNVxKM_Qbm_-186" vertex="1">
+          <mxGeometry x="40" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-210" value="Patient beim aufwachen betreuen" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;" parent="Os1vOfQC7MNVxKM_Qbm_-186" vertex="1">
+          <mxGeometry x="40" y="450" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-291" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-186" source="Os1vOfQC7MNVxKM_Qbm_-289" target="Os1vOfQC7MNVxKM_Qbm_-210" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-289" value="Anästhesie betreuen" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;" parent="Os1vOfQC7MNVxKM_Qbm_-186" vertex="1">
+          <mxGeometry x="40" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-296" value="Anästhesie oder Pflege?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-186" vertex="1">
+          <mxGeometry x="-40" y="410" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-205" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-182" source="Os1vOfQC7MNVxKM_Qbm_-201" target="Os1vOfQC7MNVxKM_Qbm_-204" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-206" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-182" source="Os1vOfQC7MNVxKM_Qbm_-204" target="Os1vOfQC7MNVxKM_Qbm_-207" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-211" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-182" source="Os1vOfQC7MNVxKM_Qbm_-207" target="Os1vOfQC7MNVxKM_Qbm_-210" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="460" />
+              <mxPoint x="540" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-213" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-182" source="Os1vOfQC7MNVxKM_Qbm_-210" target="Os1vOfQC7MNVxKM_Qbm_-212" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-214" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-182" source="Os1vOfQC7MNVxKM_Qbm_-212" target="Os1vOfQC7MNVxKM_Qbm_-215" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-226" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-182" source="Os1vOfQC7MNVxKM_Qbm_-217" target="Os1vOfQC7MNVxKM_Qbm_-225" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-227" value="ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#D5E8D4;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-226" vertex="1" connectable="0">
+          <mxGeometry x="-0.91" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-230" value="Tagesklinischer OP Prozess" style="swimlane;whiteSpace=wrap;html=1;fontSize=26;startSize=23;swimlaneFillColor=#D4E1F5;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="1630" width="940" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-237" value="Patient" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#D4E1F5;opacity=60;fontSize=20;" parent="Os1vOfQC7MNVxKM_Qbm_-230" vertex="1">
+          <mxGeometry y="30" width="250" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-239" value="Präoperativer Entscheidungs-&lt;div&gt;prozess&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-237" vertex="1">
+          <mxGeometry x="35" y="40" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-240" value="Anmeldung zur Operation" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;" parent="Os1vOfQC7MNVxKM_Qbm_-237" vertex="1">
+          <mxGeometry x="40" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-238" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-237" source="Os1vOfQC7MNVxKM_Qbm_-239" target="Os1vOfQC7MNVxKM_Qbm_-240" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-231" value="Tagesklinik / OP Team" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fillColor=#dae8fc;swimlaneFillColor=#D4E1F5;opacity=60;" parent="Os1vOfQC7MNVxKM_Qbm_-230" vertex="1">
+          <mxGeometry x="250" y="30" width="240" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-232" value="Patiententransport zur Operation" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;" parent="Os1vOfQC7MNVxKM_Qbm_-231" vertex="1">
+          <mxGeometry x="50" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-233" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-231" source="Os1vOfQC7MNVxKM_Qbm_-234" target="Os1vOfQC7MNVxKM_Qbm_-232" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-234" value="Patienten auf die OP vorbereiten" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;shape=process;backgroundOutline=1;" parent="Os1vOfQC7MNVxKM_Qbm_-231" vertex="1">
+          <mxGeometry x="50" y="170" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-236" value="Patient entlassen" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;shape=process;backgroundOutline=1;" parent="Os1vOfQC7MNVxKM_Qbm_-231" vertex="1">
+          <mxGeometry x="20" y="750" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-264" value="Stationäre Überweisung" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;shape=process;backgroundOutline=1;" parent="Os1vOfQC7MNVxKM_Qbm_-231" vertex="1">
+          <mxGeometry x="130" y="750" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-279" value="Terminplanung?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-231" vertex="1">
+          <mxGeometry x="-60" y="54" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-242" value="Op Team / Chirugie" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#D4E1F5;opacity=70;fontSize=20;" parent="Os1vOfQC7MNVxKM_Qbm_-230" vertex="1">
+          <mxGeometry x="690" y="30" width="250" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-243" value="Operation durchführen" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;shape=process;backgroundOutline=1;" parent="Os1vOfQC7MNVxKM_Qbm_-242" vertex="1">
+          <mxGeometry x="50" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-244" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-242" source="Os1vOfQC7MNVxKM_Qbm_-245" target="Os1vOfQC7MNVxKM_Qbm_-248" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-245" value="Postoperative Untersuchung" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;shape=process;backgroundOutline=1;" parent="Os1vOfQC7MNVxKM_Qbm_-242" vertex="1">
+          <mxGeometry x="50" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-246" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;labelBackgroundColor=#D5E8D4;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-242" source="Os1vOfQC7MNVxKM_Qbm_-260" target="Os1vOfQC7MNVxKM_Qbm_-245" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="690" />
+              <mxPoint x="200" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-247" value="nein" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#D4E1F5;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-246" vertex="1" connectable="0">
+          <mxGeometry x="-0.7936" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-262" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#D4E1F5;fontSize=14;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-242" source="Os1vOfQC7MNVxKM_Qbm_-248" target="Os1vOfQC7MNVxKM_Qbm_-260" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-266" value="&lt;span&gt;nein&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#D4E1F5;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-262" vertex="1" connectable="0">
+          <mxGeometry x="0.0895" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-248" value="Entlassbereit?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-242" vertex="1">
+          <mxGeometry x="57.5" y="510" width="105" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-260" value="Starke Komplikationen aufgetreten?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-242" vertex="1">
+          <mxGeometry x="57.5" y="640" width="105" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-249" value="Anästhesie" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#D4E1F5;opacity=60;startSize=23;fontSize=20;" parent="Os1vOfQC7MNVxKM_Qbm_-230" vertex="1">
+          <mxGeometry x="490" y="30" width="200" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-293" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-249" source="Os1vOfQC7MNVxKM_Qbm_-250" target="Os1vOfQC7MNVxKM_Qbm_-292" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-250" value="Anästhesie einleiten" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;shape=process;backgroundOutline=1;" parent="Os1vOfQC7MNVxKM_Qbm_-249" vertex="1">
+          <mxGeometry x="50" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-251" value="Kurzüberwachung (ca. 4h)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;" parent="Os1vOfQC7MNVxKM_Qbm_-249" vertex="1">
+          <mxGeometry x="50" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-294" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;curved=0;" parent="Os1vOfQC7MNVxKM_Qbm_-249" source="Os1vOfQC7MNVxKM_Qbm_-292" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-292" value="Anästhesie überwachen" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=default;" parent="Os1vOfQC7MNVxKM_Qbm_-249" vertex="1">
+          <mxGeometry x="50" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-332" value="Anästhesie oder Pflege?" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-249" vertex="1">
+          <mxGeometry x="-10" y="420" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-252" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-230" source="Os1vOfQC7MNVxKM_Qbm_-232" target="Os1vOfQC7MNVxKM_Qbm_-250" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-253" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-230" source="Os1vOfQC7MNVxKM_Qbm_-250" target="Os1vOfQC7MNVxKM_Qbm_-243" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-254" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-230" source="Os1vOfQC7MNVxKM_Qbm_-243" target="Os1vOfQC7MNVxKM_Qbm_-251" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="420" />
+              <mxPoint x="550" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-257" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-230" source="Os1vOfQC7MNVxKM_Qbm_-248" target="Os1vOfQC7MNVxKM_Qbm_-236" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-258" value="ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#D4E1F5;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-257" vertex="1" connectable="0">
+          <mxGeometry x="-0.91" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-241" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-230" source="Os1vOfQC7MNVxKM_Qbm_-240" target="Os1vOfQC7MNVxKM_Qbm_-234" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-259" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-230" source="Os1vOfQC7MNVxKM_Qbm_-251" target="Os1vOfQC7MNVxKM_Qbm_-245" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-263" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-230" source="Os1vOfQC7MNVxKM_Qbm_-260" target="Os1vOfQC7MNVxKM_Qbm_-264" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-265" value="ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#D4E1F5;fontSize=14;" parent="Os1vOfQC7MNVxKM_Qbm_-263" vertex="1" connectable="0">
+          <mxGeometry x="-0.8919" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-348" value="Alternative" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="890" y="1075" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-349" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Os1vOfQC7MNVxKM_Qbm_-345" target="Os1vOfQC7MNVxKM_Qbm_-348" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Os1vOfQC7MNVxKM_Qbm_-350" value="nein" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFF2CC;" parent="Os1vOfQC7MNVxKM_Qbm_-349" vertex="1" connectable="0">
+          <mxGeometry x="-0.3744" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
